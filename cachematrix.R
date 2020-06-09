@@ -1,6 +1,3 @@
-##Function, makeVector creates a special matrix, which is really a list containing 
-a function to
-
 ##The function will create a list of functions to set a matrix and inverse of it.
 
 makeCacheMatrix <- function(x = matrix()) {
@@ -20,9 +17,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
         
-##The function calculates inverse of the matrix created 
-##with the above function. If inverse has already been calculated 
-##it gets from the cache.
+##The function calculates inverse of the matrix created with the above function. 
+##If inverse has already been calculated it gets from the cache.
 
 cacheSolve <- function(x, ...) {
          
